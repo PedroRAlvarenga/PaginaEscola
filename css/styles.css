@@ -40,7 +40,7 @@ main>p {
 }
 
 @media (min-width:900px) {
-#titulo, #h1, #rodape {
+#titulo, #h1, {
     display: inline-block;
     width: 100%;
 }

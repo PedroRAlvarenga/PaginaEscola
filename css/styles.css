@@ -4,22 +4,44 @@ body {
 
 h2 #titulo p.design {
     padding-left: 10px;
+    border: 1px;
 }
 
 #titulo {
     background-color: red;
-    border: solid 1px;
+    border: solid 1px black;
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
 
 footer>h4 {
     color: blue;
-    padding-left: 40%;
+    text-align: center;
+    padding: 1px;
 }
 
 .direitos{
     color: red;
 }
 
-button{
-    background-color: greenyellow;
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: goldenrod;
+    border: solid 2px;
+    width: auto;
+}
+
+main>p {
+    background-color: white;
+}
+
+@media (min-width:900px) {
+#titulo, #h1, #rodape {
+    display: inline-block;
+    width: 100%;
+}
 }

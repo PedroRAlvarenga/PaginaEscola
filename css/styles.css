@@ -1,0 +1,25 @@
+body {
+    background-color: beige;
+}
+
+h2 #titulo p.design {
+    padding-left: 10px;
+}
+
+#titulo {
+    background-color: red;
+    border: solid 1px;
+}
+
+footer>h4 {
+    color: blue;
+    padding-left: 40%;
+}
+
+.direitos{
+    color: red;
+}
+
+button{
+    background-color: greenyellow;
+}

@@ -1,71 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <title>Escola do Professor Raimundo</title>
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <style>
-        h1 { 
-        text-align: center;
-        background-color: blue;  
-        width: 50%;
-        margin-left: 25%;
-        }
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"crossorigin="anonymous">
 
-        button {
-        background-color: greenyellow;
-        margin-left: 90%;
-        }
-    </style>
 </head>
-<body>
-    <main>
-        <h1 style="border: solid 2px"><p>Escolinha do Professor Raimundo</p></h1>
-            <p style="text-align: center; font-size: 25px;" >A Escola do Professor Raimundo apresenta estes <strong>SUPER</strong> 
-                    cursos especiais para você. <strong>CONFIRA!</strong>
-            </p>
-    </main>              
-    <div class="texto">
-        <h2 id="titulo" class="novo curso"> <strong>NOVO CURSO:</strong> Tecnologia da Informação</h2> 
-                <p id="descricao" class="tecnologia" >É o conjunto de todas as atividades e soluções providas por
-                    recursos computacionais que visam permitir o armazenamento, o processamento, 
-                    o gerenciamento e o uso das informações.
-                </p>     
-        <h2 id="titulo">Design</h2>
-                <p id="descricao" class="design">O Design é a idealização, criação, desenvolvimento de produtos, 
+<body class="bg-secondary">
+    <div class="container-md border rounded bg-white mb-3"> 
+        <div class="  p-3 text-center bg-primary border rounded ">
+             <p class="display-4 font-weight-bold text-white font-italic">Escolinha do Professor Raimundo</p>
+        </div>
+        <div class="row m-2">
+            <button class="btn btn-danger d-block mb-2" data-toggle="collapse" data-target="#collapse-div">Clique para saber mais.</button>
+            <div id="collapse-div" class="text-center collapse mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        É chegada a reinauguração da Escolinha do Professor Raimundo! Agora com um novo curso de Tecnologia da Informação, confira abaixo.
+                    </div>
+                </div>
+            </div>    
+        </div>   
+        <div class="row align-items-start">  
+            <div class="col mt-2">
+                <div class="bg-info p-2 mx-3 border border-dark rounded display-5"> 
+                    <p class="pt-2 text-center font-weight-bold"><strong>NOVO CURSO:</strong> Tecnologia da Informação</p> 
+                </div> 
+                <p class="text-center">É o conjunto de todas as atividades e soluções providas por
+                recursos computacionais que visam permitir o armazenamento, o processamento, 
+                o gerenciamento e o uso das informações.</p> 
+            </div>
+            <div class="col mt-2">
+                <div class="bg-info p-2 mx-3 border border-dark rounded display-5"> 
+                    <p class="pt-2 text-center font-weight-bold"> Design</p> 
+                </div>
+                <p class="text-center">O Design é a idealização, criação, desenvolvimento de produtos, 
                 normalmente produzidos industrialmenteue demanda padronização dos
-                componentes e desenho normalizado.
+                componentes e desenho normalizado.</p>
+            </div>
+        </div>
+        <div class="row">   
+            <div class="col-6">
+                <div class="bg-info p-2 mx-3 border border-dark rounded display-5"> 
+                    <p class="pt-2 text-center font-weight-bold"> Gastronomia</p>
+                </div>
+                <p class="text-center"> Gastronomia é um ramo dentro da culinária que abrange todas as técnicas,
+                práticas e conhecimentos que ajudam a construir uma alimentação com qualidade.</p>                
+            </div>  
+            <div class="col-6">   
+                <div class="bg-info p-2 mx-3 border border-dark rounded display-5">     
+                <p class="pt-2 text-center font-weight-bold">Eventos </p>              
+                </div>
+                <p class="text-center"> O curso de eventos forma profissionais capazes de atuarem em todos os 
+                aspectos da organização e coordenação de eventos.
                 </p>
-        <h2 id="titulo">Gastronomia</h2>
-                <p id="descricao" class="gastronomia"> Gastronomia é um ramo dentro da culinária que abrange todas as técnicas,
-                práticas e conhecimentos que ajudam a construir uma alimentação com qualidade.
-                </p>
-            
-        <h2 id="titulo">Eventos</h2>
-                <p id="descricao" class="eventos"> O curso de eventos forma profissionais capazes de atuarem em todos os 
-                    aspectos da organização e coordenação de eventos.
-                </p>
-
-        <h2 id="titulo">Moda</h2>
-                <p id="descricao" class="moda">Moda é um curso para quem gosta de usar a criatividade, realizar pesquisas, 
-                    acompanhar tendências, criar looks, produzir eventos, coordenar equipes e 
-                    se relacionar com clientes e fornecedores.
-                </p>
-
-        <h2 id="titulo">Meio Ambiente</h2>
-                <p id="descricao" class="ambiente">Meio Ambiente é um curso para quem se identifica com causas que envolvem a preservação do meio ambiente 
-                    e procura propor soluções para a conservação e proteção dos recursos naturais.
-                </p>
-    </div>        
-    <button>Clique para saber mais.</button>
-    <footer>
-            <h4><p>Entre em contato conosco.</p>
-                <p>Para mais dúvidas acesse nosso fórum.</p>
-            <p class="direitos"> Todos os direitos reservados.</p></h4>
+            </div>    
+        </div> 
+        <div class="row">  
+            <div class="col-6">        
+                <div class="bg-info p-2 mx-3 border border-dark rounded display-5"> 
+                    <p class="pt-2 text-center font-weight-bold">Moda </p>
+                </div>
+                <p class="text-center">Moda é um curso para quem gosta de usar a criatividade, realizar pesquisas, 
+                acompanhar tendências, criar looks, produzir eventos, coordenar equipes e 
+                se relacionar com clientes e fornecedores.</p>
+            </div>
+            <div class="col-6"> 
+                <div class="bg-info p-2 mx-3 border border-dark rounded display-5"> 
+                    <p class="pt-2 text-center font-weight-bold">Meio Ambiente</p> 
+                </div>
+                <p class="text-center"> Meio Ambiente é um curso para quem se identifica com causas que envolvem a preservação do meio ambiente 
+                e procura propor soluções para a conservação e proteção dos recursos naturais.</p> 
+            </div>    
+        </div>  
+        <div class="row mb-2">
+            <button class="ml-2 btn btn-danger" data-toggle="modal" data-target="#meumodal">
+                Clique e saiba mais sobre nós!
+            </button>
+            <div id="meumodal" class="modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Título</h5>
+                            <button class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            A Escolinha do Professor Raimundo apresenta diversos métodos de aprendizagem, tanto na pratica quanto na teoria,
+                            garantindo sua ingressão no Mercado de Trabalho.
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>           
+    </div>
+  
+    <footer class="text-center font-weight-bold bg-warning border border-dark">
+        <p class="pt-2">Entre em contato conosco.</p>
+        <p class="pt-1">Para mais dúvidas acesse nosso fórum.</p>
+        <p class="pt-1"> Todos os direitos reservados.</p>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
 </body>
 </html>
